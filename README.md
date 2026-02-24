@@ -50,7 +50,7 @@ function executeLogic() {
     const power = parseFloat(document.getElementById('radPower').value);
 
     // التحقق من وجود مدخلات صحيحة
-    if (!volume || !count || !power) {
+    if (!volume || !factor || !count || !power) {
         alert("صديقي المبرمج، يرجى إدخال جميع الأرقام أولاً!");
         return;
     }
